@@ -19,27 +19,25 @@
 <body>
 
 <header>
-
     <nav class="navbar">
 
         <div class="logo">
-    <img src="images/logo.png" alt="Rubin Care Solutions Logo">
-    <span>Rubin Care Solutions</span>
-</div>
+            <img src="images/logo.png" alt="Rubin Care Solutions Logo">
+            <span>Rubin Care Solutions</span>
+        </div>
 
         <ul class="nav-links">
-            <li><a href="#">Start</a></li>
-            <li><a href="#">Leistungen</a></li>
-            <li><a href="#">Über uns</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#leistungen">Leistungen</a></li>
+            <li><a href="#ueber-uns">Über uns</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
         </ul>
 
     </nav>
-
 </header>
 
 
-<section class="hero">
+<section class="hero" id="start">
 
     <div class="hero-content">
 
@@ -222,58 +220,200 @@
 </div>
 </div>
 
+</section> <!-- Leistungen schließen -->
+
 <section class="about" id="ueber-uns">
     <div class="container about-container">
-
+<!--
         <div class="about-image">
             <img src="images/about.jpg" alt="Rubin Care Solutions">
         </div>
-
+    -->
         <div class="about-content">
 
             <span class="section-tag">
                 Über uns
             </span>
 
-            <h2>Ihr zuverlässiger Partner rund ums Haus</h2>
+           <p>
+    Rubin Care Solutions bietet zuverlässige Dienstleistungen rund um
+    Haus, Garten und Grundstück. Ob regelmäßige Objektbetreuung,
+    Gartenpflege, Gebäudereinigung oder Kleinreparaturen – wir arbeiten
+    sorgfältig, flexibel und mit einem hohen Qualitätsanspruch.
+</p>
+
+<p>
+    Kundenzufriedenheit, Zuverlässigkeit und eine persönliche Betreuung
+    stehen für uns an erster Stelle. Unser Ziel ist es, Ihre Immobilie
+    langfristig gepflegt und in einem einwandfreien Zustand zu halten.
+</p>
+<div class="about-features">
+
+   <div class="feature">
+    <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <path d="m9 12 2 2 4-4"/>
+    </svg>
+    <span>Zuverlässig</span>
+</div>
+
+    <div class="feature">
+        <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+            <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/>
+        </svg>
+        <span>Professionell</span>
+    </div>
+
+    <div class="feature">
+        <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+            <line x1="10" x2="14" y1="2" y2="2"/>
+            <line x1="12" x2="15" y1="14" y2="11"/>
+            <circle cx="12" cy="14" r="8"/>
+        </svg>
+        <span>Pünktlich</span>
+    </div>
+
+    <div class="feature">
+        <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+            <path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/>
+        </svg>
+        <span>Faire Preise</span>
+    </div>
+</div> <!-- about-features -->
+
+</div> <!-- about-content -->
+
+</div> <!-- about-container -->
+
+</section> <!-- Ende Über uns -->
+
+<section class="contact" id="kontakt">
+
+    <div class="container">
+
+        
+
+        <h2>Kontakt aufnehmen</h2>
+<?php if(isset($_GET['status']) && $_GET['status']=="erfolg"): ?>
+
+<div class="success-message">
+    ✅ Vielen Dank! Ihre Anfrage wurde erfolgreich versendet.
+    Wir melden uns schnellstmöglich bei Ihnen.
+</div>
+
+<?php endif; ?>
+
+<?php if(isset($_GET['status']) && $_GET['status']=="fehler"): ?>
+
+<div class="error-message">
+    ❌ Beim Versenden ist ein Fehler aufgetreten.
+    Bitte versuchen Sie es erneut.
+</div>
+
+<?php endif; ?>
+
+        <p class="section-text">
+            Haben Sie Fragen oder wünschen ein unverbindliches Angebot?
+            Schreiben Sie uns – wir melden uns schnellstmöglich bei Ihnen.
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <h3>📞 Telefon</h3>
+                    <p>+4915510369148</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>📧 E-Mail</h3>
+                    <p>info@rubincare-solutions.de</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>📍 Einsatzgebiet</h3>
+                    <p>Landkreis Günzburg und Umgebung</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>🕒 Arbeitszeiten </h3>
+                    <p>Montag bis Samstag nach Vereinbarung</p>
+                </div>
+
+            </div>
+
+            <form class="contact-form" action="kontakt.php" method="POST">
+
+                <input type="text" name="name" placeholder="Name" required>
+
+                <input type="email" name="email" placeholder="E-Mail" required>
+
+                <input type="tel" name="telefon" placeholder="Telefon">
+
+                <textarea
+    name="nachricht"
+    placeholder="Ihre Nachricht"
+    rows="6"
+    required></textarea>
+
+    <div style="display:none;">
+    <input type="text" name="website" autocomplete="off">
+</div>
+
+                <button type="submit">
+                    Anfrage senden
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+            <h3>Rubin Care Solutions</h3>
 
             <p>
-                Rubin Care Solutions steht für Qualität, Zuverlässigkeit und
-                professionelle Objektbetreuung. Wir kümmern uns um Häuser,
-                Gärten und Außenanlagen mit größter Sorgfalt und Liebe zum Detail.
+                Ihr zuverlässiger Partner für Hausmeisterservice,
+                Gartenpflege und Objektbetreuung.
             </p>
 
-            <p>
-                Unser Ziel ist es, Immobilien dauerhaft in einem gepflegten und
-                wertstabilen Zustand zu halten – zuverlässig, flexibel und
-                kundenorientiert.
-            </p>
+            <div class="footer-contact">
+                <p>📞 <a href="tel:+4915510369148">+49 155 10369148</a></p>
+               <p>✉ <a href="mailto:info@rubincare-solutions.de">info@rubincare-solutions.de</a></p>
+                <p>📍 Landkreis Günzburg & Umgebung</p>
+            </div>
+        </div>
 
-            <div class="about-features">
+        <div class="footer-column">
 
-                <div class="feature">
-                    ✅ Zuverlässig
-                </div>
 
-                <div class="feature">
-                    ⭐ Professionell
-                </div>
+        </div>
 
-                <div class="feature">
-                    🕒 Pünktlich
-                </div>
+        <div class="footer-column">
 
-                <div class="feature">
-                    💚 Faire Preise
-                </div>
+            <h4>Rechtliches</h4>
 
+            <div class="footer-links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
             </div>
 
         </div>
 
     </div>
-</section>
-<script src="js/script.js"></script>
 
-</body>
-</html>
+    <div class="footer-bottom">
+    &copy; 2026 Rubin Care Solutions | Alle Rechte vorbehalten.
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
