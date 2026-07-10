@@ -511,7 +511,7 @@ line-height:1.7;
 ========================== */
 
 .contact{
-    padding:110px 8% 0;
+    padding:110px 8% 90px;
     background:#f8f9fb;
     scroll-margin-top:20px;
 }
@@ -616,6 +616,116 @@ line-height:1.7;
     transform:translateY(0);
 }
 
+.contact-form button:disabled{
+
+    background:#8fbf7b;
+    cursor:not-allowed;
+    transform:none;
+    box-shadow:none;
+
+}
+
+/* Datenschutzhinweis */
+
+.privacy-note{
+    font-size:14px;
+    color:#666;
+    line-height:1.6;
+    margin-top:-5px;
+    margin-bottom:10px;
+}
+
+.privacy-note a{
+    color:#78d64b;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.privacy-note a:hover{
+    text-decoration:underline;
+}
+
+.privacy-checkbox{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin:20px 0;
+    font-size:15px;
+    line-height:1.6;
+}
+
+.privacy-checkbox input{
+    flex-shrink:0;
+    margin-top:4px;
+}
+
+.privacy-checkbox a{
+    color:#79c000;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.privacy-checkbox a:hover{
+    text-decoration:underline;
+}
+
+.privacy-checkbox input[type="checkbox"]{
+    appearance:auto;
+    -webkit-appearance:checkbox;
+    width:18px !important;
+    height:18px !important;
+    min-width:18px;
+    min-height:18px;
+    margin-top:2px;
+    padding:0 !important;
+    border:none;
+    box-shadow:none;
+    flex-shrink:0;
+}
+
+.privacy-checkbox a{
+    color:#79c000;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.privacy-checkbox a:hover{
+    text-decoration:underline;
+}
+
+/* Erfolgsmeldung */
+
+.success-message{
+    background:#e9f9e5;
+    border:1px solid #78d64b;
+    color:#2d6a1f;
+
+    padding:18px 22px;
+    border-radius:12px;
+
+    margin:25px 0;
+
+    font-weight:500;
+    line-height:1.6;
+}
+
+/* Fehlermeldung */
+
+.error-message{
+    background:#ffeaea;
+    border:1px solid #e74c3c;
+    color:#b00020;
+
+    padding:18px 22px;
+    border-radius:12px;
+
+    margin:25px 0;
+
+    font-weight:500;
+    line-height:1.6;
+}
+
+
 /* ==========================
    Footer
 ========================== */
@@ -623,10 +733,10 @@ line-height:1.7;
 .footer{
     width:100%;
     background:#1f1f1f;
-    color:#fff;
+    color:#f8f9fb;
     border-top:4px solid #78d64b;
 
-    margin-top:90px;
+    margin-top:0px;
     padding:70px 8% 30px;
 }
 
@@ -719,7 +829,7 @@ line-height:1.7;
 
 .legal-box{
 
-    background:#fff;
+    background: #ffff;
 
     max-width:900px;
 
@@ -795,4 +905,300 @@ padding:30px;
     max-width:700px;
     text-align:center;
     font-weight:600;
+}
+@media (max-width: 900px) {
+
+    html,
+    body{
+        overflow-x:hidden;
+    }
+
+    .container{
+        width:100%;
+        max-width:100%;
+        padding:0 20px;
+        box-sizing:border-box;
+    }
+
+    .services-grid{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
+    .features-grid{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
+    .about-container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .contact-container{
+        display:flex;
+        flex-direction:column;
+        gap:35px;
+    }
+
+    .contact-info{
+        width:100%;
+    }
+
+    .contact-form{
+        width:100%;
+        max-width:100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        width:100%;
+        box-sizing:border-box;
+    }
+
+}
+
+/* =====================================================
+   MOBILE PREMIUM (bis 768px)
+===================================================== */
+
+@media (max-width:768px){
+
+html,
+body{
+    overflow-x:hidden;
+}
+
+/* Allgemein */
+
+.container{
+    width:100%;
+    max-width:100%;
+    padding:0 20px;
+    box-sizing:border-box;
+}
+
+.section-title{
+    font-size:32px;
+    text-align:center;
+}
+
+.section-text{
+    font-size:17px;
+    text-align:center;
+    line-height:1.8;
+}
+
+/* Header */
+
+.navbar{
+    padding:18px 20px;
+}
+
+.logo img{
+    height:55px;
+}
+
+.logo span{
+    font-size:22px;
+}
+
+/* Hero */
+
+.hero{
+    min-height:90vh;
+    padding:130px 20px 70px;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:100%;
+}
+
+.hero h1{
+    font-size:38px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    align-items:center;
+}
+
+.hero-buttons .button,
+.hero-buttons .button-secondary{
+    width:100%;
+    max-width:320px;
+}
+
+/* Leistungen */
+
+.services-grid{
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.service-card{
+    padding:35px 25px;
+}
+
+/* Über uns */
+
+.about-container{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.about-image img{
+    width:100%;
+}
+
+/* Kontakt */
+
+.contact{
+    padding:70px 20px;
+}
+
+.contact-container{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.contact-form{
+    max-width:100%;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button{
+    width:100%;
+    box-sizing:border-box;
+}
+
+/* Footer */
+
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+    text-align:center;
+}
+
+.footer-column{
+    width:100%;
+}
+
+.footer-contact{
+    text-align:center;
+}
+
+.footer-links{
+    align-items:center;
+}
+
+}
+
+/* =====================================
+   PREMIUM EFFEKTE
+===================================== */
+
+/* Sanftes Scrollen */
+html{
+    scroll-behavior:smooth;
+}
+
+/* Buttons */
+
+.button,
+.button-secondary,
+.contact-form button{
+
+    transition:all .35s ease;
+
+}
+
+.button:hover,
+.button-secondary:hover,
+.contact-form button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+/* Karten */
+
+.service-card,
+.contact-item{
+
+    transition:all .35s ease;
+
+}
+
+.service-card:hover,
+.contact-item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+/* Bilder */
+
+.about-image img{
+
+    transition:transform .5s ease;
+
+}
+
+.about-image img:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* Navigation */
+
+.nav-links a{
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#78d64b;
+
+}
+
+/* Chrome / Edge */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#f2f2f2;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#78d64b;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#63b33f;
 }

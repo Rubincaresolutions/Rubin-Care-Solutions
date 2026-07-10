@@ -343,29 +343,41 @@
 
             </div>
 
-            <form class="contact-form" action="kontakt.php" method="POST">
+           <form class="contact-form" action="kontakt.php" method="POST">
 
-                <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="name" placeholder="Name *" required>
 
-                <input type="email" name="email" placeholder="E-Mail" required>
+    <input type="email" name="email" placeholder="E-Mail *" required>
 
-                <input type="tel" name="telefon" placeholder="Telefon">
+    <input type="tel" name="telefon" placeholder="Telefon">
 
-                <textarea
-    name="nachricht"
-    placeholder="Ihre Nachricht"
-    rows="6"
-    required></textarea>
+    <textarea
+        name="nachricht"
+        placeholder="Ihre Nachricht *"
+        rows="6"
+        required></textarea>
 
     <div style="display:none;">
-    <input type="text" name="website" autocomplete="off">
-</div>
+        <input type="text" name="website" autocomplete="off">
+    </div>
 
-                <button type="submit">
-                    Anfrage senden
-                </button>
+ <label class="privacy-checkbox">
+    <input type="checkbox" name="datenschutz" required>
 
-            </form>
+    <span>
+        Ich habe die
+        <a href="datenschutz.html" target="_blank">
+            Datenschutzerklärung
+        </a>
+        gelesen und akzeptiere die Verarbeitung meiner personenbezogenen Daten.
+    </span>
+</label>
+
+<button type="submit" id="submitButton">
+    📩 Jetzt unverbindlich anfragen
+</button>
+
+</form>
 
         </div>
 
@@ -404,6 +416,8 @@
             <div class="footer-links">
                 <a href="impressum.html">Impressum</a>
                 <a href="datenschutz.html">Datenschutz</a>
+                <a href="https://www.instagram.com/rubin_care_solutions/" target="_blank">
+        Instagram
             </div>
 
         </div>
@@ -411,9 +425,12 @@
     </div>
 
     <div class="footer-bottom">
+        Mit ❤️ aus Bayern
     &copy; 2026 Rubin Care Solutions | Alle Rechte vorbehalten.
 </div>
 
 </footer>
 
 <script src="js/script.js"></script>
+</body>
+</html>

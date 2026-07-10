@@ -2,13 +2,19 @@
 
 // Nur POST-Anfragen zulassen
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
-    header("Location: index.php");
+    header("Location: index.php#kontakt");
     exit;
 }
 
 // Honeypot gegen Spam
 if (!empty($_POST["website"])) {
-    header("Location: index.php?status=spam");
+    header("Location: index.php?status=spam#kontakt");
+    exit;
+}
+
+// Datenschutzerklärung akzeptiert?
+if (!isset($_POST["datenschutz"])) {
+    header("Location: index.php?status=fehler#kontakt");
     exit;
 }
 
@@ -25,7 +31,7 @@ if (
     empty($nachricht) ||
     !filter_var($email, FILTER_VALIDATE_EMAIL)
 ) {
-    header("Location: index.php?status=fehler");
+    header("Location: index.php?status=fehler#kontakt");
     exit;
 }
 
@@ -58,8 +64,9 @@ $erfolg = mail(
 );
 
 if ($erfolg) {
-    header("Location: index.php?status=erfolg");
+    header("Location: index.php?status=erfolg#kontakt");
 } else {
-    header("Location: index.php?status=fehler");
+    header("Location: index.php?status=fehler#kontakt");
 }
+
 exit;
