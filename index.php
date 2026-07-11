@@ -55,11 +55,11 @@
 
         <div class="hero-buttons">
 
-            <a href="#" class="button">
+            <a href="#kontakt" class="button">
                 Jetzt Anfrage stellen →
             </a>
 
-            <a href="#" class="button-secondary">
+            <a href="#leistungen" class="button-secondary">
                 Leistungen ansehen
             </a>
 
@@ -104,7 +104,7 @@
             Pflege und Werterhalt Ihrer Immobilie.
         </p>
 
-        <a href="#">Mehr erfahren →</a>
+        <a href="hausmeisterservice.php">Mehr erfahren →</a>
     </div>
 
     <!-- Gartenpflege -->
@@ -123,7 +123,7 @@
             Rasen, Hecken und saisonalen Bepflanzungen.
         </p>
 
-        <a href="#">Mehr erfahren →</a>
+        <a href="gartenpflege.php">Mehr erfahren →</a>
     </div>
 
     <!-- Gebäudereinigung -->
@@ -144,7 +144,7 @@
             Gemeinschaftsflächen und Außenbereichen.
         </p>
 
-        <a href="#">Mehr erfahren →</a>
+        <a href="gebaeudereinigung.php">Mehr erfahren →</a>
     </div>
 <!-- Winterdienst -->
     <div class="service-card">
@@ -172,7 +172,7 @@
             für Gehwege, Einfahrten und Parkplätze.
         </p>
 
-        <a href="#">Mehr erfahren →</a>
+        <a href="winterdienst.php">Mehr erfahren →</a>
     </div>
 
     <!-- Kleinreparaturen -->
@@ -192,7 +192,7 @@
             Instandhaltungsarbeiten rund um Ihre Immobilie.
         </p>
 
-        <a href="#">Mehr erfahren →</a>
+        <a href="kleinreparaturen.php">Mehr erfahren →</a>
     </div>
 
     <!-- Entrümpelung -->
@@ -214,7 +214,7 @@
             Kellern, Garagen und Gewerbeobjekten.
         </p>
 
-        <a href="#">Mehr erfahren →</a>
+        <a href="entruempelung.php">Mehr erfahren →</a>
     </div>
 
 </div>
