@@ -35,7 +35,7 @@
 
     <!-- Hero -->
 
-   <section class="service-hero">
+       <section class="service-hero">
 
     <div class="container">
 
@@ -43,14 +43,11 @@
             Rubin Care Solutions
         </span>
 
-        <h1>Professioneller Hausmeisterservice für Ihre Immobilie</h1>
+        <h1>Ihre Immobilie verdient eine zuverlässige Betreuung.</h1>
 
         <p class="service-intro">
-            Ob Mehrfamilienhaus, Wohnanlage oder Gewerbeobjekt – wir kümmern uns zuverlässig um die Betreuung,
-            Pflege und den Werterhalt Ihrer Immobilie. Mit flexiblen Lösungen, persönlichem Service und einem hohen
-            Qualitätsanspruch stehen wir Ihnen als zuverlässiger Partner zur Seite.
-        </p>
-
+    Mit unserem Hausmeisterservice sorgen wir für Werterhalt, Ordnung und eine professionelle Betreuung Ihrer Wohn- und Gewerbeimmobilien.
+</p>
         <div class="service-buttons">
 
             <a href="index.php#kontakt" class="button">
@@ -67,75 +64,173 @@
 
 </section>
 
-    <!-- Unsere Leistungen -->
+    <section class="service-section light">
 
-    <section class="service-section">
+    <div class="container">
 
-        <div class="container">
+        <h2>Für wen wir tätig sind</h2>
 
-            <h2>Unsere Leistungen</h2>
+        <p class="section-intro">
+            Unser Hausmeisterservice richtet sich an Eigentümer, Hausverwaltungen
+            und Unternehmen, die eine zuverlässige Betreuung ihrer Immobilie
+            wünschen.
+        </p>
 
-            <div class="service-grid">
+        <div class="service-grid">
 
-                <div class="service-card-detail">
-                    <h3>🏢 Objektkontrollen</h3>
+            <div class="service-card-detail">
+                <h3>🏢 Hausverwaltungen</h3>
+                <p>
+                    Unterstützung bei der regelmäßigen Betreuung
+                    von Wohnanlagen und Mehrfamilienhäusern.
+                </p>
+            </div>
 
-                    <p>
-                        Regelmäßige Kontrollgänge zur Überprüfung von
-                        Gebäuden, Gemeinschaftsflächen und Außenanlagen.
-                    </p>
-                </div>
+            <div class="service-card-detail">
+                <h3>🏘 Wohnungseigentümergemeinschaften</h3>
+                <p>
+                    Werterhalt und Pflege gemeinschaftlicher
+                    Gebäude- und Außenbereiche.
+                </p>
+            </div>
 
-                <div class="service-card-detail">
-                    <h3>🔧 Kleinreparaturen</h3>
+            <div class="service-card-detail">
+                <h3>🏬 Gewerbeobjekte</h3>
+                <p>
+                    Zuverlässige Objektbetreuung für
+                    Unternehmen und Geschäftshäuser.
+                </p>
+            </div>
 
-                    <p>
-                        Kleinere Reparaturen und Instandhaltungsarbeiten
-                        im Rahmen eines Hausmeisterservices.
-                    </p>
-                </div>
-
-                <div class="service-card-detail">
-                    <h3>🌿 Außenanlagen</h3>
-
-                    <p>
-                        Pflege von Wegen, Eingangsbereichen und Grünflächen
-                        für einen gepflegten Gesamteindruck.
-                    </p>
-                </div>
-
-                <div class="service-card-detail">
-                    <h3>🚮 Mülltonnenservice</h3>
-
-                    <p>
-                        Bereitstellen und Zurückstellen der Mülltonnen
-                        zu den jeweiligen Abfuhrterminen.
-                    </p>
-                </div>
-
-                <div class="service-card-detail">
-                    <h3>👀 Sichtkontrollen</h3>
-
-                    <p>
-                        Schäden frühzeitig erkennen und größere
-                        Folgekosten vermeiden.
-                    </p>
-                </div>
-
-                <div class="service-card-detail">
-                    <h3>🤝 Persönlicher Ansprechpartner</h3>
-
-                    <p>
-                        Direkter Kontakt für Eigentümer,
-                        Hausverwaltungen und Unternehmen.
-                    </p>
-                </div>
-
+            <div class="service-card-detail">
+                <h3>🏠 Vermieter</h3>
+                <p>
+                    Entlastung durch regelmäßige Kontrollen
+                    und Betreuung Ihrer Immobilie.
+                </p>
             </div>
 
         </div>
+<div class="service-note">
 
-    </section>
+    <strong>Hinweis:</strong><br>
+
+    Unser Hausmeisterservice konzentriert sich bewusst auf die regelmäßige Betreuung und den Werterhalt Ihrer Immobilie. Weitere Dienstleistungen wie Gartenpflege, Gebäudereinigung, Winterdienst oder Kleinreparaturen finden Sie auf den jeweiligen Leistungsseiten. Dadurch erhalten Sie einen klaren Überblick über unsere einzelnen Leistungen und deren Einsatzbereiche.
+</div>
+    </div>
+
+</section>
+
+<hr class="section-divider">
+    <!-- Unsere Leistungen -->
+
+   <section class="service-section">
+
+    <div class="container">
+
+        <h2>Was umfasst unser Hausmeisterservice?</h2>
+
+        <p class="section-intro">
+            Unser Hausmeisterservice dient der regelmäßigen Betreuung und dem Werterhalt Ihrer Immobilie.
+            Im Mittelpunkt stehen die Kontrolle, Organisation und Koordination wiederkehrender Aufgaben,
+            damit Ihr Objekt dauerhaft gepflegt, sicher und funktionstüchtig bleibt.
+        </p>
+
+        <div class="service-grid">
+
+            <div class="service-card-detail">
+
+                <h3>🏢 Regelmäßige Objektkontrollen</h3>
+
+                <p>
+                    Durch regelmäßige Kontrollgänge werden Schäden, Verschleiß oder Auffälligkeiten frühzeitig erkannt.
+                    So können notwendige Maßnahmen rechtzeitig eingeleitet und größere Folgekosten vermieden werden.
+                </p>
+
+            </div>
+
+            <div class="service-card-detail">
+
+                <h3>🔧 Organisation kleiner Instandhaltungsmaßnahmen</h3>
+
+                <p>
+                    Kleinere Mängel werden dokumentiert und – soweit im Rahmen eines Hausmeisterservices zulässig –
+                    behoben oder zur weiteren Bearbeitung an geeignete Fachbetriebe weitergeleitet.
+                </p>
+
+            </div>
+
+            <div class="service-card-detail">
+
+                <h3>🌿 Kontrolle der Außenanlagen</h3>
+
+                <p>
+                    Wege, Grünflächen und Außenbereiche werden regelmäßig kontrolliert, um einen gepflegten Gesamteindruck
+                    und die Verkehrssicherheit der Immobilie zu unterstützen. Die eigentliche Gartenpflege erfolgt bei Bedarf
+                    im Rahmen unserer separaten Dienstleistung.
+                </p>
+
+            </div>
+
+            <div class="service-card-detail">
+
+                <h3>🚮 Mülltonnenservice</h3>
+
+                <p>
+                    Wir übernehmen das termingerechte Bereitstellen und Zurückstellen der Mülltonnen und sorgen so
+                    für einen reibungslosen Ablauf der Abfallentsorgung.
+                </p>
+
+            </div>
+
+            <div class="service-card-detail">
+
+                <h3>👀 Sichtkontrollen & Werterhalt</h3>
+
+                <p>
+                    Regelmäßige Sichtkontrollen helfen dabei, Schäden frühzeitig zu erkennen und den gepflegten Zustand
+                    Ihrer Immobilie langfristig zu erhalten.
+                </p>
+
+            </div>
+
+         <div class="service-card-detail">
+
+    <h3>🤝 Kommunikation & Betreuung</h3>
+
+    <p>
+        Wir stehen Eigentümern, Hausverwaltungen und Unternehmen als
+        zuverlässiger Ansprechpartner zur Verfügung. Durch eine
+        transparente Kommunikation und kurze Reaktionszeiten sorgen wir
+        für einen reibungslosen Ablauf bei der Betreuung Ihrer Immobilie.
+    </p>
+
+</div>
+
+
+</div> <!-- Ende container -->
+
+</section>
+<div class="service-note">
+
+    <h3>💡 Gut zu wissen</h3>
+
+    <p>
+        Unser Hausmeisterservice konzentriert sich auf die regelmäßige Betreuung
+        und Organisation Ihrer Immobilie. Leistungen wie Gartenpflege,
+        Gebäudereinigung, Winterdienst oder Kleinreparaturen bieten wir ebenfalls an.
+        Um Ihnen einen besseren Überblick zu ermöglichen, haben wir diese Leistungen
+        auf eigenen Seiten ausführlich beschrieben.
+    </p>
+
+    <a href="index.php#leistungen" class="button">
+        Alle Leistungen entdecken →
+    </a>
+
+</div>
+</section>
+
+
 
 <section class="service-section process">
 
@@ -203,28 +298,6 @@
 
 </section>
 
-    <!-- Für wen -->
-
-    <section class="service-section">
-
-        <div class="container">
-
-            <h2>Für wen eignet sich unser Hausmeisterservice?</h2>
-
-            <ul class="service-list">
-
-                <li>✔ Mehrfamilienhäuser</li>
-                <li>✔ Wohnanlagen</li>
-                <li>✔ Eigentümergemeinschaften</li>
-                <li>✔ Gewerbeobjekte</li>
-                <li>✔ Bürogebäude</li>
-                <li>✔ Privatkunden</li>
-
-            </ul>
-
-        </div>
-
-    </section>
 
     <!-- Nicht enthalten -->
 
